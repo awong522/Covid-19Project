@@ -8,7 +8,7 @@ order by 3,4
 --From PortfolioProject..CovidVaccinations$
 --order by 3,4
 
--- select data that we are going to be using 
+-- select data 
 --1.
 Select sum(new_cases) as total_cases, sum(cast(new_deaths as int)) as total_deaths, sum(cast(new_deaths as Int))/sum(new_cases)*100 as DeathPercentage
 from PortfolioProject..CovidDeaths$
