@@ -53,7 +53,7 @@ Group by Location
 order by TotalDeathCount desc
 
 
---Lets break things down by continent 
+--Break things down by continent 
 
 Select continent, Max(cast(total_deaths as int)) as TotalDeathCount
 from PortfolioProject..CovidDeaths$
